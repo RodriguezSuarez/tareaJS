@@ -30,3 +30,18 @@ else if (dinero >= 90 && dinero <= 100) {
 else {
   alert(`${nombre} eres el peor, sentate y mirá como toman helado otras/os, no te alcanza ni para el cucurucho`);
 }
+
+//edad
+let año = parseInt(prompt(`${nombre} dime ¿en qué año naciste (aaaa)?`));
+let cumpleaños = prompt(`Tu cumpleaños ${nombre} ya pasó (si/no)`);
+let edad1 = 2022 - año;
+let edad2 = 2022 - año;
+if (cumpleaños == `si`) {
+  alert (`Tú tienes ${edad1} años`);
+}
+else if (cumpleaños == `no`) {
+  alert (`Tú tienes ${--edad2} años`);
+}
+else{
+  `Segui participando`
+}
