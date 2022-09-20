@@ -43,5 +43,5 @@ else if (cumpleaños == `no`) {
   alert (`Tú tienes ${--edad2} años`);
 }
 else{
-  `Segui participando`
+  alert(`${nombre} segui participando`);
 }
